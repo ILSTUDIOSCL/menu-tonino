@@ -888,7 +888,7 @@ document.getElementById('waBtn').addEventListener('click', () => {
   const total = items.reduce((s, x) => s + x.qty * x.price, 0);
   const msg = `Hola, quiero pedir:\n${lines}\n\nTotal: ${fmt(total)}`;
 
-  const phone = '56900000000'; // ← Reemplazar con número real
+  const phone = '56979844620'; // ← Reemplazar con número real
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
   window.open(url, '_blank');
 });
